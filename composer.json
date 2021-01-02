@@ -53,7 +53,7 @@
   },
   "autoload": {
     "psr-4": {
-      "christwood\\UserBundle\\": "src/"
+      "christwood\\UserBundle\\": ""
     }
   },
   "autoload-dev": {
