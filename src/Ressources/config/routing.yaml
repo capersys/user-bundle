@@ -1,0 +1,22 @@
+# Login - Logout
+security_login:
+  path: "/login"
+  controller: christwood\UserBundle\Controller\SecurityController::login
+security_logout:
+  path: "/logout"
+
+# Register
+security_register:
+  path: "/register"
+  controller: christwood\UserBundle\Controller\SecurityController::register
+security_register_confirm:
+  path: "/register/{token}"
+  controller: christwood\UserBundle\Controller\SecurityController::registerConfirm
+
+# Resetting
+security_resetting:
+  path: "/resetting"
+  controller: christwood\UserBundle\Controller\SecurityController::resetting
+security_resetting_password:
+  path: "/resetting/{token}"
+  controller: christwood\UserBundle\Controller\SecurityController::resettingPassword

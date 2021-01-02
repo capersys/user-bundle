@@ -1,0 +1,26 @@
+security:
+    register: S'inscrire
+    registration_disable: L'inscription est pour l'instant inactive. Merci de réessayer plus tard.
+    forgot_password: Mot de passe oublié
+    login_title: Connexion
+    login_username: Adresse email
+    login_password: Mot de passe
+    login_rememberme: Se souvenir de moi
+    login_btn: Connexion
+    register_title: S'inscrire
+    register_btn: S'inscrire
+    email: Email
+    password: Mot de passe
+    password_confirmation: Répéter le mot de passe
+    password_current: Mot de passe actuel
+    register_success: Merci de vous êtes inscrit. Votre compte a été activé, vous pouvez maintenant vous connecter.
+    register_confirmed: Merci de vous êtes inscrit. Pour activer votre compte, veuillez cliquer sur le lien envoyé à votre adresse email.
+    reset_title: Mot de passe oublié
+    reset_btn: Réinitialiser le mot de passe
+    reset_emailsend: L'email de réinitialisation du mot de passe a été envoyé.
+    reset_completed: Votre mot de passe a été modifié. Vous pouvez maintenant vous connecter.
+    resetpw_title: Modifier le mot de passe
+    token_notfound: L'utilisateur avec le code de confirmation n'existe pas pour la valeur '%s'
+    resetpw_wait_resendig: Attendez %s heures avant de renvoyer la demande.
+    user_not_found: L'utilisateur n'existe pas.
+    group_name: Nom de groupe
