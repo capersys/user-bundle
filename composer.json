@@ -1,10 +1,10 @@
 {
-  "name": "christwood/userbundle",
+  "name": "capersys/user-bundle",
   "description": "Symfony User manager",
   "keywords": [
     "User management"
   ],
-  "homepage": "https://github.com/ChristWood/userBundle",
+  "homepage": "https://github.com/capersys/user-bundle",
   "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
@@ -13,8 +13,8 @@
       "homepage": "https://github.com/appaydin"
     },
     {
-      "name": "Christ Wood",
-      "homepage": "https://github.com/ChristWood"
+      "name": "Christophe",
+      "homepage": "https://github.com/capersys"
     }
   ],
   "minimum-stability": "dev",
