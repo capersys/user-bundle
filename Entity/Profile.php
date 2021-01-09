@@ -205,7 +205,7 @@ class Profile implements ProfileInterface
      *
      * @return  self
      */
-    public function setCountry(string $country): ProfileInterface
+    public function setCountry(?string $country): ProfileInterface
     {
         $this->country = $country;
 
