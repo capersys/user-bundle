@@ -16,19 +16,9 @@ class Configuration implements ConfigurationInterface
 
         /** @var ArrayNodeDefinition $rootNode */
         $rootNode = $treeBuilder->getRootNode();
-        // Set Configuration
-        $supportedDrivers = ['orm'];
+        // Set Configuration  
         $rootNode
             ->children()
-            ->scalarNode('db_driver')
-            ->validate()
-            ->ifNotInArray($supportedDrivers)
-            ->thenInvalid('The driver %s is not supported. Please choose one of ' . json_encode($supportedDrivers))
-            ->end()
-            ->cannotBeOverwritten()
-            ->isRequired()
-            ->cannotBeEmpty()
-            ->end()
             ->scalarNode('user_class')->defaultValue('')->end()
             ->scalarNode('profile_class')->defaultValue('')->end()
             ->scalarNode('group_class')->defaultValue('')->end()
@@ -44,7 +34,7 @@ class Configuration implements ConfigurationInterface
             })->end()
             ->end()
             ->scalarNode('mail_sender_address')->defaultValue('example@example.com')->end()
-            ->scalarNode('mail_sender_name')->defaultValue('CWUser')->end()
+            ->scalarNode('mail_sender_name')->defaultValue('CapersysUser')->end()
             ->arrayNode('active_language')->scalarPrototype()->end()->defaultValue(['en'])->end()
             ->scalarNode('register_type')->defaultValue(RegisterType::class)->end()
             ->scalarNode('resetting_type')->defaultValue(ResettingType::class)->end()
