@@ -3,7 +3,7 @@
  * This file is part of the UserBundle package
  *
  * @author Christ Wood
- * @link https://github.com/ChristWood/userBundle
+ * @link https://github.com/Capersys/userBundle
  *
  * The MIT License (MIT)
  * Copyright (c) 2021
@@ -23,7 +23,7 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace christwood\UserBundle\Entity;
+namespace Capersys\UserBundle\Entity;
 
 
 /**

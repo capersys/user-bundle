@@ -1,6 +1,6 @@
 <?php
 
-namespace christwood\UserBundle\EventListener;
+namespace Capersys\UserBundle\EventListener;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\RequestEvent;

@@ -1,12 +1,12 @@
 <?php
 
-namespace christwood\UserBundle\Entity;
+namespace Capersys\UserBundle\Entity;
 
 /*
  * This file is part of the UserBundle package
  *
  * @author Christ Wood
- * @link https://github.com/ChristWood/userBundle
+ * @link https://github.com/Capersys/userBundle
  *
  * The MIT License (MIT)
  * Copyright (c) 2021

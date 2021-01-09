@@ -5,7 +5,7 @@
  * This file is part of the UserBundle package
  *
  * @author Christ Wood
- * @link https://github.com/ChristWood/userBundle
+ * @link https://github.com/Capersys/userBundle
  *
  * The MIT License (MIT)
  * Copyright (c) 2021
@@ -25,14 +25,14 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-namespace christwood\UserBundle\Controller;
+namespace Capersys\UserBundle\Controller;
 
-use christwood\UserBundle\Configuration\ConfigInterface;
-use christwood\UserBundle\Event\UserEvent;
-use christwood\UserBundle\Form\ResettingPasswordType;
-use christwood\UserBundle\Entity\GroupInterface;
-use christwood\UserBundle\Entity\Profile;
-use christwood\UserBundle\Entity\UserInterface;
+use Capersys\UserBundle\Configuration\ConfigInterface;
+use Capersys\UserBundle\Event\UserEvent;
+use Capersys\UserBundle\Form\ResettingPasswordType;
+use Capersys\UserBundle\Entity\GroupInterface;
+use Capersys\UserBundle\Entity\Profile;
+use Capersys\UserBundle\Entity\UserInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Form\Exception\InvalidArgumentException;
 use Symfony\Component\Form\FormError;

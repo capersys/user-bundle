@@ -1,5 +1,5 @@
 <?php
-namespace christwood\UserBundle\Command;
+namespace Capersys\UserBundle\Command;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Command\Command;

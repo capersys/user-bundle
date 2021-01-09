@@ -1,10 +1,10 @@
 <?php
 
-namespace christwood\UserBundle\EventListener;
+namespace Capersys\UserBundle\EventListener;
 
 
 use Doctrine\ORM\EntityManagerInterface;
-use christwood\UserBundle\Entity\UserInterface;
+use Capersys\UserBundle\Entity\UserInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\Security\Http\Event\InteractiveLoginEvent;

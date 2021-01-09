@@ -1,6 +1,6 @@
 <?php
 
-namespace christwood\UserBundle;
+namespace Capersys\UserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -3,7 +3,7 @@
  * This file is part of the UserBundle package
  *
  * @author Christ Wood
- * @link https://github.com/ChristWood/userBundle
+ * @link https://github.com/Capersys/userBundle
  *
  * The MIT License (MIT)
  * Copyright (c) 2021
@@ -24,9 +24,9 @@
  */
 
 
-namespace christwood\UserBundle\Form;
+namespace Capersys\UserBundle\Form;
 
-use christwood\UserBundle\Entity\ProfileInterface;
+use Capersys\UserBundle\Entity\ProfileInterface;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;

@@ -1,6 +1,6 @@
 <?php
 
-namespace christwood\UserBundle\Entity;
+namespace Capersys\UserBundle\Entity;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;

@@ -1,6 +1,6 @@
 <?php
 
-namespace christwood\UserBundle\DependencyInjection;
+namespace Capersys\UserBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

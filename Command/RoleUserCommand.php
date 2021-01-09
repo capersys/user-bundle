@@ -4,7 +4,7 @@
  * This file is part of the UserBundle package
  *
  * @author Christ Wood
- * @link https://github.com/ChristWood/userBundle
+ * @link https://github.com/Capersys/userBundle
  *
  * The MIT License (MIT)
  * Copyright (c) 2021
@@ -25,7 +25,7 @@
  */
 
 
-namespace christwood\UserBundle\Command;
+namespace Capersys\UserBundle\Command;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Command\Command;

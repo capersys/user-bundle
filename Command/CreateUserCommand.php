@@ -20,7 +20,7 @@
  */
 
 
-namespace christwood\UserBundle\Command;
+namespace Capersys\UserBundle\Command;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Container\ContainerInterface;

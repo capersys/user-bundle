@@ -53,18 +53,13 @@
   },
   "autoload": {
     "psr-4": {
-      "christwood\\UserBundle\\": ""
+      "Capersys\\UserBundle\\": ""
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "christwood\\UserBundle\\Tests\\": "tests/"
+      "Capersys\\UserBundle\\Tests\\": "tests/"
     }
-  },
-  "replace": {
-    "symfony/polyfill-ctype": "*",
-    "symfony/polyfill-iconv": "*",
-    "symfony/polyfill-php72": "*"
   },
   "conflict": {
     "phpunit/phpunit": "<5.4.3"

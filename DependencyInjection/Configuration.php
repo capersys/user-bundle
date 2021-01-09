@@ -1,10 +1,10 @@
 <?php
 
-namespace christwood\UserBundle\DependencyInjection;
+namespace Capersys\UserBundle\DependencyInjection;
 
-use christwood\UserBundle\Form\RegisterType;
-use christwood\UserBundle\Form\ResettingPasswordType;
-use christwood\UserBundle\Form\ResettingType;
+use Capersys\UserBundle\Form\RegisterType;
+use Capersys\UserBundle\Form\ResettingPasswordType;
+use Capersys\UserBundle\Form\ResettingType;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
@@ -12,7 +12,7 @@ class Configuration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('cw_user');
+        $treeBuilder = new TreeBuilder('capersys_user');
 
         /** @var ArrayNodeDefinition $rootNode */
         $rootNode = $treeBuilder->getRootNode();

@@ -1,9 +1,9 @@
 <?php
 
-namespace christwood\UserBundle\Security;
+namespace Capersys\UserBundle\Security;
 
-use christwood\UserBundle\Entity\User;
-use christwood\UserBundle\Entity\UserInterface;
+use Capersys\UserBundle\Entity\User;
+use Capersys\UserBundle\Entity\UserInterface;
 use Symfony\Component\Security\Core\Authorization\Voter\Voter;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 
