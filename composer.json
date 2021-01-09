@@ -17,7 +17,6 @@
       "homepage": "https://github.com/capersys"
     }
   ],
-  "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
     "php": ">=7.2.5",
@@ -44,25 +43,10 @@
     "phpunit/phpunit": "^7.2",
     "symfony/phpunit-bridge": "^5.2"
   },
-  "config": {
-    "optimize-autoloader": true,
-    "preferred-install": {
-      "*": "dist"
-    },
-    "sort-packages": true
-  },
   "autoload": {
     "psr-4": {
       "Capersys\\UserBundle\\": ""
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Capersys\\UserBundle\\Tests\\": "tests/"
-    }
-  },
-  "conflict": {
-    "phpunit/phpunit": "<5.4.3"
   },
   "extra": {
     "symfony": {
